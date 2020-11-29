@@ -1,0 +1,15 @@
+<table>
+	<thead>
+		<th>Name</th>
+		<th>Indexs</th>
+	</thead>
+	<tbody>
+		<div *ngFor="let book of books">
+			<h4>
+				<p>kind : {{book.kind}}</p>
+        <p>Id : {{book.id}}</p>
+        <p>etag : {{book.etag}}</p>
+			</h4>
+		</div>
+	</tbody>
+</table>
